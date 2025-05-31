@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Insight</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="Media/favicon.ico">
+</head>
+<body style="background-color: rgb(139, 251, 255);">
+	<nav class="navbar navbar-expand-lg sticky-top">
+		<a href="index.html" class="navbar-brand"><img src="Media/logo.png" alt="logo">Ocean Insight</a>
+
+		<button class="navbar-toggler" data-bs-target="#mynavbar" data-bs-toggle="collapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse">
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+					<a href="index.html" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="Pages/marine-life.html" class="nav-link">Marine Life</a>
+				</li>
+				<li class="nav-item">
+					<a href="Pages/pollution.html" class="nav-link">Pollution</a>
+				</li>
+				<li class="nav-item">
+					<a href="Pages/conservation.html" class="nav-link">Conservation</a>
+				</li>
+				<li class="nav-item">
+					<a href="#footer" class="nav-link">About</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="carousel carousel-dark silde" data-bs-ride="carousel" id="parent">
+		
+		<a href="#" class="carousel-control-prev" data-bs-target="#parent" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a href="#" class="carousel-control-next" data-bs-target="#parent" data-bs-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="Media/wallpaper1.webp" alt="wallpaper1" class="wpsize">
+			</div>
+			<div class="carousel-item">
+				<img src="Media/wallpaper2.jpg" alt="wallpaper2" class="wpsize">
+			</div>
+			<div class="carousel-item">
+				<img src="Media/wallpaper3.jpg" alt="wallpaper3" class="wpsize">
+			</div>
+		</div>
+
+		<ul class="carousel-indicators">
+			<li class="active" data-bs-target="#parent" data-bs-slide-to="0"></li>
+			<li data-bs-target="#parent" data-bs-slide-to="1"></li>
+			<li data-bs-target="#parent" data-bs-slide-to="2"></li>
+		</ul>
+	</div>
+
+	<section class="container my-5 text-center" id="marine-life">
+		<div class="row align-items-center">
+			<div class="col-md-6">
+				<img src="Media/marine-life.webp" class="img-fluid rounded shadow-sm" alt="marine life">
+			</div>
+			<div class="col-md-6">
+				<h1>Marine Life</h1><br>
+				<p>
+					The ocean is home to an astonishing variety of life—from microscopic plankton drifting in sunlit waters to giant whales roaming the deep.
+					In this section, explore the diverse creatures that inhabit our seas, learn how they survive in some of the planet’s most extreme environments, and discover why protecting marine ecosystems is vital to life on Earth.
+				</p>
+				<a href="Pages/marine-life.html" class="btn btn-outline-primary">Learn More</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="container my-5 text-center" id="pollution">
+		<div class="row align-items-center">
+			<div class="col-md-6">
+				<h1>Pollution</h1><br>
+				<p>
+					Every day, millions of tons of waste enter our oceans—plastic, chemicals, oil, and more—threatening marine life and the health of our planet.
+					Pollution affects everything from the tiniest plankton to the largest whales, and its impact reaches even the most remote parts of the sea.
+					In this section, explore the sources and consequences of ocean pollution, understand how it affects marine ecosystems, and learn what we can do to protect and restore the ocean for future generations.
+				</p>
+				<a href="Pages/pollution.html" class="btn btn-outline-primary">Learn More</a>
+			</div>
+			<div class="col-md-6">
+				<img src="Media/pollution.jpg" class="img-fluid rounded shadow-sm" alt="pollution">
+			</div>
+		</div>
+	</section>
+
+	<section class="container my-5 text-center" id="conservation">
+		<div class="row align-items-center">
+			<div class="col-md-6">
+				<img src="Media/conservation.avif" class="img-fluid rounded shadow-sm" alt="conservation">
+			</div>
+			<div class="col-md-6">
+				<h1>Conservation</h1><br>
+				<p>
+					The ocean is vital to life on Earth—it produces most of our oxygen, regulates the climate, and supports incredible biodiversity.
+					But today, it faces growing threats from pollution, overfishing, and climate change. Ocean conservation is about protecting these fragile ecosystems and ensuring a healthy, thriving sea for generations to come.
+					In this section, discover the efforts being made around the world to safeguard marine life, preserve habitats, and take action for a sustainable future.
+				</p>
+				<a href="Pages/conservation.html" class="btn btn-outline-primary">Learn More</a>
+			</div>
+		</div>
+	</section>
+
+	<footer class="text-center mt-5" id="footer">
+		<div class="container d-flex">
+			<div class="container">
+				<h2>About Us</h2>
+				<p>
+					Ocean Insight is about empowering the understanding of our oceans using science, data, and storytelling.
+				</p>
+			</div>
+			<div class="container">
+				<h2>Contact Us</h2>
+				<p>
+					OceanInsight@gmail.com<br><br>
+					+1 234 567 890
+				</p>
+			</div>
+		</div>
+		<p id="copyright">© 2025 Ocean Insight| All Rights Reserved.</p>
+    </footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

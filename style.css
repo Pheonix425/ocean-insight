@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(139, 251, 255);
+}
+.navbar{
+    background-color: rgb(80, 203, 219);
+}
+.navbar-brand img{
+    height: 50px;
+    margin: 0 15px;
+}
+.navbar a{
+    color: rgb(139, 251, 255);
+}
+.nav-item a{
+    font-size: large;
+}
+.navbar a:hover{
+    color: rgb(39, 237, 255);
+}
+.wpsize{
+    height: 60vh;
+    width: 80%;
+    margin: 5px 10%;
+}
+.title{
+    font-size: 40px;
+    color: rgb(76, 167, 136);
+    margin-left: 15px;
+    text-align: center;
+}
+.text{
+    color: rgb(60, 136, 111);
+    margin-left: 10px;
+}
+.card-body h1,.card-body p{
+    color: rgb(60, 136, 111);
+}
+.container h1,.container p{
+    color: rgb(60, 136, 111);
+}
+#footer{
+    height: 35vh;
+    padding: 10px;
+    background-color: rgb(80, 203, 219);
+    color: rgb(211, 254, 255);
+}
